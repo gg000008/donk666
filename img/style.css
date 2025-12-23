@@ -1,0 +1,148 @@
+.header{
+    background-color: rgb(45, 63, 79);
+}
+
+.container-header{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.container-hero{
+    display: flex;
+    justify-content: center;
+
+}
+.header-list{
+    display: flex;
+    justify-content: center;
+align-items: center;
+}
+.hero-title{
+width: 576px;
+height: 173px;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.hero-ee{
+width: 453px;
+height: 208px;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.hero-gg{
+width: 224px;
+height: 49px;
+background-color: chocolate;
+
+}
+section{
+   background-color: rgb(45, 63, 79); 
+}
+.logo{
+    width: 50px;
+}
+.hero-img{
+    width: 300px;
+    margin-right: 50px;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+
+
+.full {
+width: 400px;
+height: 20px;
+background-color: rgb(248, 1, 1)
+}
+.fill-html {
+width: 90%;
+height: 100%;
+background-color: rgb(11, 249, 11);    
+}
+.fill-css {
+    width: 40%;
+height: 100%;
+background-color: rgb(11, 242, 11);  
+}
+.fill-js {
+    width: 20%;            
+    
+height: 100%;
+background-color: rgb(35, 243, 35);  
+}
+.vidio__vidio {
+width: 700px;
+height: 500px;
+border: 25px solid black;
+box-sizing: border-box;
+}
+.vidio-title {
+    text-align: center;
+    font-size: 34px;
+    margin-top: 0px;
+    padding-top: 30px;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+.about__title {
+    text-align: center;
+}
+.golirei__title{
+ text-align: center;
+}
+.gggolireii{
+ text-align: center;
+}
+.golirei{
+    background-color: blue;
+}
+.golliryu{
+      width: 420px;
+    height: 400px;
+}
+ .golliryu {
+  /* ... существующие стили ... */
+  filter: brightness(1) saturate(1);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.golliryu.clicked {
+  animation: pulse 0.6s ease;
+  filter: brightness(1.2) saturate(1.5) hue-rotate(15deg);
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+.footer__ggez{
+    width: 70px;
+
+}
+.footer__social{
+    display: flex;
+    list-style: none ;
+}
+.footer__social{
+    max-width:  1500px; ;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.hidden-img{
+    display: none;
+    position: absolute;
+    top: 20px;
+    right: 50%;
+}
